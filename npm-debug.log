@@ -1,0 +1,213 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'g',
+1 verbose cli   'component',
+1 verbose cli   'student/student-details' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData g
+8 silly fetchPackageMetaData component
+9 silly fetchPackageMetaData student/student-details
+10 silly fetchNamedPackageData g
+11 silly mapToRegistry name g
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: 'g',
+14 silly mapToRegistry   scope: null,
+14 silly mapToRegistry   escapedName: 'g',
+14 silly mapToRegistry   name: 'g',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri https://registry.npmjs.org/g
+16 silly fetchNamedPackageData component
+17 silly mapToRegistry name component
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry data Result {
+20 silly mapToRegistry   raw: 'component',
+20 silly mapToRegistry   scope: null,
+20 silly mapToRegistry   escapedName: 'component',
+20 silly mapToRegistry   name: 'component',
+20 silly mapToRegistry   rawSpec: '',
+20 silly mapToRegistry   spec: 'latest',
+20 silly mapToRegistry   type: 'tag' }
+21 silly mapToRegistry uri https://registry.npmjs.org/component
+22 silly fetchOtherPackageData student/student-details
+23 silly cache add args [ 'student/student-details', null ]
+24 verbose cache add spec student/student-details
+25 verbose request uri https://registry.npmjs.org/g
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 12:07:14 AM
+28 verbose request id 579a778236287f00
+29 http request GET https://registry.npmjs.org/g
+30 verbose request uri https://registry.npmjs.org/component
+31 verbose request no auth needed
+32 info attempt registry request try #1 at 12:07:14 AM
+33 http request GET https://registry.npmjs.org/component
+34 silly cache add parsed spec Result {
+34 silly cache add   raw: 'student/student-details',
+34 silly cache add   scope: null,
+34 silly cache add   escapedName: null,
+34 silly cache add   name: null,
+34 silly cache add   rawSpec: 'student/student-details',
+34 silly cache add   spec: 'github:student/student-details',
+34 silly cache add   type: 'hosted',
+34 silly cache add   hosted:
+34 silly cache add    { type: 'github',
+34 silly cache add      ssh: 'git@github.com:student/student-details.git',
+34 silly cache add      sshUrl: 'git+ssh://git@github.com/student/student-details.git',
+34 silly cache add      httpsUrl: 'git+https://github.com/student/student-details.git',
+34 silly cache add      gitUrl: 'git://github.com/student/student-details.git',
+34 silly cache add      shortcut: 'github:student/student-details',
+34 silly cache add      directUrl: 'https://raw.githubusercontent.com/student/student-details/master/package.json' } }
+35 verbose addRemoteGit caching student/student-details
+36 verbose addRemoteGit student/student-details is a repository hosted by github
+37 silly tryGitProto attempting to clone git://github.com/student/student-details.git
+38 silly tryClone cloning student/student-details via git://github.com/student/student-details.git
+39 verbose tryClone git-github-com-student-student-details-git-e7695d36 not in flight; caching
+40 verbose correctMkdir C:\Users\jagan\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+41 verbose makeDirectory C:\Users\jagan\AppData\Roaming\npm-cache\_git-remotes creation not in flight; initializing
+42 verbose makeCacheDir UID & GID are irrelevant on win32
+43 verbose git clone --template=C:\Users\jagan\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/student/student-details.git C:\Users\jagan\AppData\Roaming\npm-cache\_git-remotes\git-github-com-student-student-details-git-e7695d36: undefined
+43 verbose git clone --template=C:\Users\jagan\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/student/student-details.git C:\Users\jagan\AppData\Roaming\npm-cache\_git-remotes\git-github-com-student-student-details-git-e7695d36: undefined
+44 silly tryHTTPS attempting to clone git+https://github.com/student/student-details.git
+45 silly tryClone cloning student/student-details via git+https://github.com/student/student-details.git
+46 verbose tryClone git-https-github-com-student-student-details-git-fa6dd806 not in flight; caching
+47 verbose correctMkdir C:\Users\jagan\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+48 verbose git clone --template=C:\Users\jagan\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/student/student-details.git C:\Users\jagan\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-student-student-details-git-fa6dd806: undefined
+48 verbose git clone --template=C:\Users\jagan\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/student/student-details.git C:\Users\jagan\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-student-student-details-git-fa6dd806: undefined
+49 silly trySSH attempting to clone git@github.com:student/student-details.git
+50 silly tryClone cloning student/student-details via git@github.com:student/student-details.git
+51 verbose tryClone git-github-com-student-student-details-git-ad0f4109 not in flight; caching
+52 verbose correctMkdir C:\Users\jagan\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+53 error git clone --template=C:\Users\jagan\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:student/student-details.git C:\Users\jagan\AppData\Roaming\npm-cache\_git-remotes\git-github-com-student-student-details-git-ad0f4109: undefined
+53 error git clone --template=C:\Users\jagan\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:student/student-details.git C:\Users\jagan\AppData\Roaming\npm-cache\_git-remotes\git-github-com-student-student-details-git-ad0f4109: undefined
+54 silly fetchPackageMetaData Error: not found: git
+54 silly fetchPackageMetaData     at getNotFoundError (C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:14:12)
+54 silly fetchPackageMetaData     at F (C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:69:19)
+54 silly fetchPackageMetaData     at E (C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:81:29)
+54 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:90:16
+54 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+54 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+54 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:264:29
+54 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+54 silly fetchPackageMetaData  error for student/student-details { Error: not found: git
+54 silly fetchPackageMetaData     at getNotFoundError (C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:14:12)
+54 silly fetchPackageMetaData     at F (C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:69:19)
+54 silly fetchPackageMetaData     at E (C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:81:29)
+54 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:90:16
+54 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+54 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+54 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:264:29
+54 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15) code: 'ENOGIT' }
+55 http 200 https://registry.npmjs.org/g
+56 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+56 verbose headers   server: 'UploadServer',
+56 verbose headers   'cache-control': 'max-age=300',
+56 verbose headers   'last-modified': 'Sat, 14 May 2016 3:19:21 GMT',
+56 verbose headers   etag: '"57369939-205b"',
+56 verbose headers   'x-npm-region': 'Asia',
+56 verbose headers   'content-encoding': 'gzip',
+56 verbose headers   'content-length': '1712',
+56 verbose headers   'accept-ranges': 'bytes',
+56 verbose headers   date: 'Wed, 21 Feb 2018 18:37:12 GMT',
+56 verbose headers   via: '1.1 varnish',
+56 verbose headers   age: '13599',
+56 verbose headers   connection: 'keep-alive',
+56 verbose headers   'x-served-by': 'cache-sin18024-SIN',
+56 verbose headers   'x-cache': 'HIT',
+56 verbose headers   'x-cache-hits': '1',
+56 verbose headers   'x-timer': 'S1519238232.361708,VS0,VE1',
+56 verbose headers   vary: 'Accept-Encoding, Accept' }
+57 silly get cb [ 200,
+57 silly get   { 'content-type': 'application/json; charset=UTF-8',
+57 silly get     server: 'UploadServer',
+57 silly get     'cache-control': 'max-age=300',
+57 silly get     'last-modified': 'Sat, 14 May 2016 3:19:21 GMT',
+57 silly get     etag: '"57369939-205b"',
+57 silly get     'x-npm-region': 'Asia',
+57 silly get     'content-encoding': 'gzip',
+57 silly get     'content-length': '1712',
+57 silly get     'accept-ranges': 'bytes',
+57 silly get     date: 'Wed, 21 Feb 2018 18:37:12 GMT',
+57 silly get     via: '1.1 varnish',
+57 silly get     age: '13599',
+57 silly get     connection: 'keep-alive',
+57 silly get     'x-served-by': 'cache-sin18024-SIN',
+57 silly get     'x-cache': 'HIT',
+57 silly get     'x-cache-hits': '1',
+57 silly get     'x-timer': 'S1519238232.361708,VS0,VE1',
+57 silly get     vary: 'Accept-Encoding, Accept' } ]
+58 verbose get saving g to C:\Users\jagan\AppData\Roaming\npm-cache\registry.npmjs.org\g\.cache.json
+59 verbose correctMkdir C:\Users\jagan\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+60 http 200 https://registry.npmjs.org/component
+61 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+61 verbose headers   server: 'UploadServer',
+61 verbose headers   'cache-control': 'max-age=300',
+61 verbose headers   'last-modified': 'Sat, 22 Jul 2017 18:52:15 GMT',
+61 verbose headers   etag: '"59739edf-21966"',
+61 verbose headers   'x-npm-region': 'Asia',
+61 verbose headers   'content-encoding': 'gzip',
+61 verbose headers   'content-length': '9040',
+61 verbose headers   'accept-ranges': 'bytes',
+61 verbose headers   date: 'Wed, 21 Feb 2018 18:37:12 GMT',
+61 verbose headers   via: '1.1 varnish',
+61 verbose headers   age: '0',
+61 verbose headers   connection: 'keep-alive',
+61 verbose headers   'x-served-by': 'cache-sin18034-SIN',
+61 verbose headers   'x-cache': 'MISS',
+61 verbose headers   'x-cache-hits': '0',
+61 verbose headers   'x-timer': 'S1519238232.360983,VS0,VE253',
+61 verbose headers   vary: 'Accept-Encoding, Accept' }
+62 silly get cb [ 200,
+62 silly get   { 'content-type': 'application/json; charset=UTF-8',
+62 silly get     server: 'UploadServer',
+62 silly get     'cache-control': 'max-age=300',
+62 silly get     'last-modified': 'Sat, 22 Jul 2017 18:52:15 GMT',
+62 silly get     etag: '"59739edf-21966"',
+62 silly get     'x-npm-region': 'Asia',
+62 silly get     'content-encoding': 'gzip',
+62 silly get     'content-length': '9040',
+62 silly get     'accept-ranges': 'bytes',
+62 silly get     date: 'Wed, 21 Feb 2018 18:37:12 GMT',
+62 silly get     via: '1.1 varnish',
+62 silly get     age: '0',
+62 silly get     connection: 'keep-alive',
+62 silly get     'x-served-by': 'cache-sin18034-SIN',
+62 silly get     'x-cache': 'MISS',
+62 silly get     'x-cache-hits': '0',
+62 silly get     'x-timer': 'S1519238232.360983,VS0,VE253',
+62 silly get     vary: 'Accept-Encoding, Accept' } ]
+63 verbose get saving component to C:\Users\jagan\AppData\Roaming\npm-cache\registry.npmjs.org\component\.cache.json
+64 verbose correctMkdir C:\Users\jagan\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+65 silly rollbackFailedOptional Starting
+66 silly rollbackFailedOptional Finishing
+67 silly runTopLevelLifecycles Finishing
+68 silly install printInstalled
+69 verbose stack Error: not found: git
+69 verbose stack     at getNotFoundError (C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:14:12)
+69 verbose stack     at F (C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:69:19)
+69 verbose stack     at E (C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:81:29)
+69 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:90:16
+69 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+69 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+69 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:264:29
+69 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+70 verbose cwd C:\Users\jagan\SRM.web
+71 error Windows_NT 10.0.16299
+72 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "g" "component" "student/student-details"
+73 error node v6.11.4
+74 error npm  v3.10.10
+75 error code ENOGIT
+76 error not found: git
+77 error Failed using git.
+77 error This is most likely not a problem with npm itself.
+77 error Please check if you have git installed and in your PATH.
+78 verbose exit [ 1, true ]
